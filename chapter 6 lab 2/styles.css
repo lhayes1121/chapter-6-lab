@@ -1,0 +1,225 @@
+/* Student: Latoya Hayes 
+   Date: Nov 13, 2023
+   File Name: style.css */
+
+   /*CSS Reset*/
+body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+    margin:0;
+    padding:0;
+    border:0;
+}
+/*style rule for body*/
+
+body{
+    background-color: #f6eee4;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*style rules for mobile viewport*/
+.mobile{
+    display: block;
+}
+
+/*style rules to show mobile class and hid tab-desk class*/
+.tab-desk {
+    display: none;
+}
+
+/*style rules for header area*/
+.mobile h1 {
+    font-family: 'Emblema One', cursive;
+    padding: 2%;
+    text-align: center;
+}
+
+.mobile h3 {
+    padding: 2%;
+    font-family: 'lora', serif;
+    text-align: center;
+}
+
+/*style rule for navigation area*/
+nav{
+    background-color: #2a1f14;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: block;
+    font-size: 1.5em;
+    font-family: geneva, Arial, sans-serif;
+    font-weight: bold;
+    border-top: solid 0.5px #f6eee4;
+}
+
+nav li a{
+    display: block;
+    color:#f6eee4;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration:none;
+}
+/*style rule for main content*/
+main{
+    padding: 2%;
+    font-family: 'lora', serif;
+}
+
+main p{
+    font-size: 1.25em;
+}
+
+main h3{
+    padding-top: 2%;
+}
+
+main ul{
+list-style-type:square;
+}
+
+.link{
+    color:#4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.action{
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+.round {
+    border-radius: 6px;
+}
+
+#contact {
+    text-align: center;
+}
+
+.tel-link {
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*Style rules for footer content*/
+footer{
+text-align: center;
+font-size: 0.85em;
+background-color: #2a1f14;
+color: #f6eee4;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-right: 0%;
+padding-left: 0%;
+}
+
+footer a{
+    color: #f3e6d8;
+    text-decoration: none;
+    
+
+}
+/*style rules for images*/
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1{}
+
+h3{}
+
+/*Media Query for Tablet Viewport*/
+@media screen (minimum and width of 620 and print)
+
+/*Tablet Viewport: Show tab-desk class, hide mobile class*/
+tab-desk {
+    display:block;
+}
+
+.mobile {
+    display:none;
+}
+/*Tablet Viewport: Style rules for nav area*/
+nav li {
+    border-top: inline-block;
+    font-size: 1.25em;
+}
+
+nav li a {
+    padding: 0.5em;
+}
+
+/*Media Query for Desktop Viewport*/
+@media screen (minimum width of 1000px and print)
+/*Desktop viewport: Style rules for nav area*/
+nav li {
+    font-size:1.5em
+}
+
+nav li a {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+nav li a :hover {
+    color:#2a1f14;
+    background:#f6eee4;
+}
+/*Desktop Viewport:style rules for main content*/
+#info ul {
+    margin-left:5%;
+}
+
+/*Media Query for Large Desktop viewport*/
+@media screen (minimum width of 1921px)
+body {
+    background: linearGradient(white,black);
+}
+
+#wrapper {
+    width:1920px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    background-color: #f6eee4;
+}
+
+/*Media query for print*/
+@media print{
+
+body {
+    background-color: white;
+    font-color: black;
+}
+}
